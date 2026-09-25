@@ -39,6 +39,5 @@ Reusable framework for ingestion, transformation, monitoring and governance.
 
 ## Connect
 
-- LinkedIn: <your-linkedin>
-- Blog/Medium: <optional>
-- Email: <optional>
+- LinkedIn: https://www.linkedin.com/in/sravan4rmhyd/
+- Email: sravan4rmhyd@gmail.com
