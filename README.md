@@ -26,7 +26,7 @@ Senior Software Engineer | Data Engineer | AI & Data Platform Architect
 - MCP Servers
 - Agentic AI Systems
   <p align="center">
-  <img src="assets/github-banner.jpg">
+  <img src="github-banner.png">
   </p>
 
 ## Featured Projects
