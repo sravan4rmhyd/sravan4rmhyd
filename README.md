@@ -1,16 +1,44 @@
-## Hi there 👋
+# Hi, I'm Sravan Kumar 👋
 
-<!--
-**sravan4rmhyd/sravan4rmhyd** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Senior Software Engineer | Data Engineer | AI & Data Platform Architect
 
-Here are some ideas to get you started:
+🚀 Building scalable Data & AI platforms on Azure
+☁️ Azure Databricks | Apache Spark | Snowflake | dbt
+🤖 Generative AI | MCP | Agentic AI | RAG
+🏗️ Lakehouse Architecture | Data Governance | Data Platforms
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+📍 India
+💼 Open to Remote Contract & Consulting Opportunities
+
+## Expertise
+
+- Data Engineering
+- Data Architecture
+- Azure Databricks
+- Apache Spark
+- Snowflake
+- dbt
+- Delta Lake
+- Python
+- Java
+- Spring Boot
+- AI Engineering
+- MCP Servers
+- Agentic AI Systems
+
+## Featured Projects
+
+### Enterprise Lakehouse Platform
+End-to-end Azure Databricks Lakehouse architecture with governance, orchestration and data quality controls.
+
+### AI-Powered Knowledge Assistant
+RAG-based assistant using vector search, MCP tools and LLM orchestration.
+
+### Data Platform Accelerator
+Reusable framework for ingestion, transformation, monitoring and governance.
+
+## Connect
+
+- LinkedIn: <your-linkedin>
+- Blog/Medium: <optional>
+- Email: <optional>
