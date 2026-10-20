@@ -1,0 +1,21 @@
+[project]
+name = "data-platform-accelerator"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = ["duckdb>=1.0", "pyyaml"]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.scripts]
+dpa = "dpa.engine:main"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]

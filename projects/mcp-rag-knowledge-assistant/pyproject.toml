@@ -1,0 +1,19 @@
+[project]
+name = "mcp-rag-knowledge-assistant"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = ["mcp>=1.2,<2", "scikit-learn>=1.4"]
+
+[project.optional-dependencies]
+llm = ["anthropic"]
+dev = ["pytest"]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]

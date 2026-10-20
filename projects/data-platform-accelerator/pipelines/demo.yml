@@ -1,0 +1,17 @@
+sources:
+  raw_customers: data/customers.csv
+  raw_orders: data/orders.csv
+
+models: [stg_customers, stg_orders, customer_revenue]   # executed in this order
+
+checks:
+  stg_customers:
+    - {type: not_null, column: customer_id}
+    - {type: unique, column: customer_id}
+    - {type: not_null, column: name, severity: warn}
+  stg_orders:
+    - {type: not_null, column: order_id}
+    - {type: relationships, column: customer_id, to: stg_customers.customer_id, severity: warn}
+    - {type: accepted_range, column: amount, min: 0}
+  customer_revenue:
+    - {type: row_count_min, min: 1}

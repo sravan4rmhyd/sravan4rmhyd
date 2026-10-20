@@ -1,0 +1,30 @@
+# Databricks Asset Bundle: `databricks bundle deploy -t dev`
+bundle:
+  name: lakehouse
+
+targets:
+  dev:
+    mode: development
+    default: true
+    workspace:
+      host: https://<your-workspace>.azuredatabricks.net
+
+resources:
+  jobs:
+    medallion_orders:
+      name: medallion-orders
+      schedule:
+        quartz_cron_expression: "0 0 * * * ?"
+        timezone_id: UTC
+      tasks:
+        - task_key: run_pipeline
+          spark_python_task:
+            python_file: src/lakehouse/pipeline.py
+            parameters: ["--base", "abfss://lake@<storageaccount>.dfs.core.windows.net/orders", "--raw", "abfss://lake@<storageaccount>.dfs.core.windows.net/raw/orders"]
+          job_cluster_key: main
+      job_clusters:
+        - job_cluster_key: main
+          new_cluster:
+            spark_version: 15.4.x-scala2.12
+            node_type_id: Standard_DS3_v2
+            num_workers: 2

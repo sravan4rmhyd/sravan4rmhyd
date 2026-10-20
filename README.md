@@ -31,14 +31,11 @@ Senior Software Engineer | Data Engineer | AI & Data Platform Architect
 
 ## Featured Projects
 
-### Enterprise Lakehouse Platform
-End-to-end Azure Databricks Lakehouse architecture with governance, orchestration and data quality controls.
-
-### AI-Powered Knowledge Assistant
-RAG-based assistant using vector search, MCP tools and LLM orchestration.
-
-### Data Platform Accelerator
-Reusable framework for ingestion, transformation, monitoring and governance.
+| Project | Stack | What it shows |
+|---|---|---|
+| [Azure Databricks Lakehouse Platform](projects/azure-databricks-lakehouse-platform) | PySpark, Delta Lake, Databricks Asset Bundles | Medallion architecture, quarantine-based data quality gates, idempotent MERGE upserts, CI |
+| [MCP RAG Knowledge Assistant](projects/mcp-rag-knowledge-assistant) | Python, MCP, vector retrieval, Claude | RAG with citations, an MCP server with typed tools, offline retrieval evaluation (recall@k, MRR) |
+| [Data Platform Accelerator](projects/data-platform-accelerator) | Python, DuckDB, SQL, YAML | Config-driven ingestion/transform, dbt-style models, severity-based data-quality checks, run reports |
 
 ## Connect
 

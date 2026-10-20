@@ -1,0 +1,7 @@
+[
+  {"question": "How do I upsert records into a Silver table?", "expected_source": "delta-lake.md"},
+  {"question": "Which tests catch null or duplicate keys in warehouse models?", "expected_source": "dbt.md"},
+  {"question": "How should documents be split into chunks for retrieval?", "expected_source": "rag.md"},
+  {"question": "How do AI clients discover and call external tools?", "expected_source": "mcp.md"},
+  {"question": "How can I mask sensitive columns on Databricks?", "expected_source": "databricks-governance.md"}
+]
