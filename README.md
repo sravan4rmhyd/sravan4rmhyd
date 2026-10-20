@@ -33,9 +33,9 @@ Senior Software Engineer | Data Engineer | AI & Data Platform Architect
 
 | Project | Stack | What it shows |
 |---|---|---|
-| [Azure Databricks Lakehouse Platform](projects/azure-databricks-lakehouse-platform) | PySpark, Delta Lake, Databricks Asset Bundles | Medallion architecture, quarantine-based data quality gates, idempotent MERGE upserts, CI |
-| [MCP RAG Knowledge Assistant](projects/mcp-rag-knowledge-assistant) | Python, MCP, vector retrieval, Claude | RAG with citations, an MCP server with typed tools, offline retrieval evaluation (recall@k, MRR) |
-| [Data Platform Accelerator](projects/data-platform-accelerator) | Python, DuckDB, SQL, YAML | Config-driven ingestion/transform, dbt-style models, severity-based data-quality checks, run reports |
+| [Azure Databricks Lakehouse Platform](https://github.com/sravan4rmhyd/azure-databricks-lakehouse-platform) | PySpark, Delta Lake, Databricks Asset Bundles | Medallion architecture, quarantine-based data quality gates, idempotent MERGE upserts, CI |
+| [MCP RAG Knowledge Assistant](https://github.com/sravan4rmhyd/mcp-rag-knowledge-assistant) | Python, MCP, vector retrieval, Claude | RAG with citations, an MCP server with typed tools, offline retrieval evaluation (recall@k, MRR) |
+| [Data Platform Accelerator](https://github.com/sravan4rmhyd/data-platform-accelerator) | Python, DuckDB, SQL, YAML | Config-driven ingestion/transform, dbt-style models, severity-based data-quality checks, run reports |
 
 ## Connect
 

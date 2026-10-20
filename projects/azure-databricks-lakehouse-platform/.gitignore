@@ -1,4 +1,0 @@
-__pycache__/
-*.egg-info/
-spark-warehouse/
-metastore_db/
